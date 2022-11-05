@@ -11,17 +11,18 @@ namespace RevitAPITrainingLibrary
 {
     public class WallsUtils
     {
-        public static List<Wall> GetWallSystems(ExternalCommandData commandData) 
+        public static List<WallType> GetWallTypes(ExternalCommandData commandData) 
         {
             UIApplication uiapp = commandData.Application;
             UIDocument uidoc = uiapp.ActiveUIDocument;
             Document doc = uidoc.Document;
 
-            List<Wall> WallSystemTypes = new FilteredElementCollector(doc)
-                                                     .OfClass(typeof(Wall))
-                                                     .Cast<Wall>()
+            var WallTypes = new FilteredElementCollector(doc)
+                                                     .OfClass(typeof(WallType))
+                                                     .Cast<WallType>()
                                                      .ToList();
-            return WallSystemTypes;
+            return WallTypes;
         }
+
     }
 }

@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DuctUtils.cs" />
+    <Compile Include="DuctUtils2.cs" />
+    <Compile Include="FamilyInstanceUtils.cs" />
+    <Compile Include="FamilySymbolUtils.cs" />
+    <Compile Include="LevelsUtils.cs" />
+    <Compile Include="TagsUtils.cs" />
     <Compile Include="WallsUtils.cs" />
     <Compile Include="SelectionUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
