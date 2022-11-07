@@ -17,6 +17,7 @@ namespace RevitAPITrainingLibrary
             var doc = uidoc.Document;
 
             var familySymbols=new FilteredElementCollector(doc)
+                .OfCategory(BuiltInCategory.OST_Furniture)
                 .OfClass(typeof(FamilySymbol))
                 .Cast<FamilySymbol>()
                 .ToList();
