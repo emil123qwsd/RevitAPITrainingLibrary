@@ -52,8 +52,11 @@
     <Compile Include="DuctUtils2.cs" />
     <Compile Include="FamilyInstanceUtils.cs" />
     <Compile Include="FamilySymbolUtils.cs" />
+    <Compile Include="FilterUtils.cs" />
     <Compile Include="FurnitureUtils.cs" />
     <Compile Include="LevelsUtils.cs" />
+    <Compile Include="ListUtils.cs" />
+    <Compile Include="ScheduleUtils.cs" />
     <Compile Include="TagsUtils.cs" />
     <Compile Include="ViewsUtils.cs" />
     <Compile Include="WallsUtils.cs" />
